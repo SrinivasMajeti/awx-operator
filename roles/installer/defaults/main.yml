@@ -273,7 +273,7 @@ _init_projects_container_image: quay.io/centos/centos:stream9
 
 create_preload_data: true
 
-replicas: "1"
+replicas: 1
 web_replicas: ''
 task_replicas: ''
 
@@ -432,6 +432,7 @@ garbage_collect_secrets: false
 development_mode: false
 
 security_context_settings: {}
+postgres_security_context_settings: {}
 
 # Set no_log settings on certain tasks
 no_log: true

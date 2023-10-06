@@ -47,8 +47,7 @@ All of our usage and configuration docs are nested in the `docs/` directory. Bel
   - [Authors](./docs/contributors-guide/author.md)
 - Installation
   - [Basic Install](./docs/installation/basic-install.md)
-  - [Creating a Minikube cluster for testing](./docs/creating-a-minikube-cluster-for-testing.md)
-  - [Installation](./docs/installation/installation.md)
+  - [Creating a Minikube cluster for testing](./docs/installation/creating-a-minikube-cluster-for-testing.md)
   - [Helm Install](./docs/installation/helm-install-on-existing-cluster.md)
 - [Migration](./docs/migration/migration.md)
 - [Uninstall](./docs/uninstall/uninstall.md)
@@ -57,7 +56,7 @@ All of our usage and configuration docs are nested in the `docs/` directory. Bel
   - [Database Configuration](./docs/user-guide/database-configuration.md)
   - [Network and TLS Configuration](./docs/user-guide/network-and-tls-configuration.md)
   - Advanced Configuration
-    - [No Log](./docs/no-log.md)
+    - [No Log](./docs/user-guide/advanced-configuration/no-log.md)
     - [Deploy a Specific Version of AWX](./docs/user-guide/advanced-configuration/deploying-a-specific-version-of-awx.md)
     - [Resource Requirements](./docs/user-guide/advanced-configuration/containers-resource-requirements.md)
     - [Extra Settings](./docs/user-guide/advanced-configuration/extra-settings.md)
@@ -77,6 +76,7 @@ All of our usage and configuration docs are nested in the `docs/` directory. Bel
     - [Redis Container Capabilities](./docs/user-guide/advanced-configuration/redis-container-capabilities.md)
     - [Trusting a Custom Certificate Authority](./docs/user-guide/advanced-configuration/trusting-a-custom-certificate-authority.md)
     - [Service Account](./docs/user-guide/advanced-configuration/service-account.md)
+    - [Security Context](./docs/user-guide/advanced-configuration/security-context.md)
     - [Persisting the Projects Directory](./docs/user-guide/advanced-configuration/persisting-projects-directory.md)
 - Troubleshooting
   - [General Debugging](./docs/troubleshooting/debugging.md)
@@ -109,5 +109,6 @@ We ask all of our community members and contributors to adhere to the [Ansible c
 
 We welcome your feedback and ideas. The AWX operator uses the same mailing list and IRC channel as AWX itself. Here's how to reach us with feedback and questions:
 
-- Join the `#ansible-awx` channel on irc.libera.chat
+- Join the [Ansible AWX channel on Matrix](https://matrix.to/#/#awx:ansible.com)
+- Join the [Ansible Community Forum](https://forum.ansible.com)
 - Join the [mailing list](https://groups.google.com/forum/#!forum/awx-project)
